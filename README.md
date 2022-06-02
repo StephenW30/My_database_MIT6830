@@ -50,3 +50,7 @@ Lab5
 
 Lab6
 ```
+
+Process recording：
+
+    Up to now, several labs have been finished, including Lab1, Lab2 and the first 2 exercises of the Lab3. Those coding has passed the Unit test and System test provided for each exercise.
