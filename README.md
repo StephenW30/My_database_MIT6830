@@ -22,7 +22,6 @@ ant runtest -Dtest=FilterTest
 ant runtest -Dtest=JoinTest
 ant runtest -Dtest=IntegerAggregatorTest
 ant runtest -Dtest=StringAggregatorTest
-ant runtest -Dtest=FilterTest
 ant runtest -Dtest=AggregateTest
 ant runsystest -Dtest=AggregateTest
 ant runtest -Dtest=HeapPageWriteTest
@@ -36,7 +35,6 @@ ant runsystest -Dtest=EvictionTest
 Lab3
 ant runtest -Dtest=IntHistogramTest
 ant runtest -Dtest=TableStatsTest
-ant runtest -Dtest=estimateJoinCostTest
 ant runtest -Dtest=JoinOptimizerTest
 ant runsystest -Dtest=QueryTest
 
