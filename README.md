@@ -36,6 +36,7 @@ ant runsystest -Dtest=EvictionTest
 Lab3
 ant runtest -Dtest=IntHistogramTest
 ant runtest -Dtest=TableStatsTest
+ant runtest -Dtest=estimateJoinCostTest
 ant runtest -Dtest=JoinOptimizerTest
 ant runsystest -Dtest=QueryTest
 
@@ -53,4 +54,7 @@ Lab6
 
 Process recording：
 
-    Up to now, several labs have been finished, including Lab1, Lab2 and the first 2 exercises of the Lab3. Those coding has passed the Unit test and System test provided for each exercise.
+    Up to now, several labs have been finished, including Lab1, Lab2 and Lab3. Those coding has passed the Unit test and System test provided for each exercise.
+
+    tip:
+    in Lab3, rewrite the iterator in HeapFile to accelerate the speed of searching so that it can pass the QueryTest, otherwise, error will occur.
